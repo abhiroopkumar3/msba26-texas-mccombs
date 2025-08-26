@@ -1,5 +1,5 @@
 # Small Businesses Loan Default Prediction
-> Predicting defaults in SBA 7(a) and 504 loan programs using feature engineering and machine learning. :contentReference[oaicite:0]{index=0}
+> Predicting defaults in SBA 7(a) and 504 loan programs using feature engineering and machine learning.  
 
 ![Status](https://img.shields.io/badge/status-Complete-brightgreen) ![Domain](https://img.shields.io/badge/domain-FinTech-lightgrey) ![Focus](https://img.shields.io/badge/focus-Risk%20Modeling-brightgreen) ![Tech Stack](https://img.shields.io/badge/stack-Python%20%7C%20Pandas%20%7C%20XGBoost-orange) ![Dataset Size](https://img.shields.io/badge/dataset-441K%2B%20records-purple) ![Last Updated](https://img.shields.io/badge/last%20updated-Aug%202025-informational) ![License](https://img.shields.io/badge/license-MIT-yellowgreen) ![Maintainers](https://img.shields.io/badge/maintainers-4-blueviolet)  
 
