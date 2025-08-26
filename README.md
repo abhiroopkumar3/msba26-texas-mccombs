@@ -27,9 +27,12 @@ The objective was to predict Austin house prices using the 'latestPrice' variabl
 
 ### Data Preparation and Feature Engineering
 
-1.  **X/Y Graphs and Correlation Analysis:** The Austin housing dataset was analyzed using X/Y graphs and a correlation matrix to understand the relationship between different features and house prices. These tools helped identify key features for predicting prices.  
-2.  **Data Preparation:** This process involved excluding unique identifiers and selecting specific predictors like `streetAddress`, `homeType`, and `avgSchoolSize`. Missing values were handled by omitting "NA" values for categorical data, and some features were converted to factors for specific modeling techniques.  
-3.  **Feature Engineering:** Custom columns were created from existing features to improve model performance, provide more accurate price predictions, and achieve a lower RMSE. These custom columns included:  
+1.  #### **X/Y Graphs and Correlation Analysis:**
+    The Austin housing dataset was analyzed using X/Y graphs and a correlation matrix to understand the relationship between different features and house prices. These tools helped identify key features for predicting prices.  
+2.  #### **Data Preparation:**
+    This process involved excluding unique identifiers and selecting specific predictors like `streetAddress`, `homeType`, and `avgSchoolSize`. Missing values were handled by omitting "NA" values for categorical data, and some features were converted to factors for specific modeling techniques.  
+3.  #### **Feature Engineering:**
+    Custom columns were created from existing features to improve model performance, provide more accurate price predictions, and achieve a lower RMSE. These custom columns included:  
     * `age when sold` to capture a property's lifecycle  
     * `area_ratio` to measure house density on its lot  
     * `total rooms` as a metric for size  
@@ -58,7 +61,7 @@ The **unpruned regression tree** was chosen as the final model due to its lowest
 
 ***
 
-**Table: Comparison of Original and Predicted Prices**
+### **Table: Comparison of Original and Predicted Prices**
 
 | | **Original Price** | **Predicted Price** |
 | :--- | :--- | :--- |
